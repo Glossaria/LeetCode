@@ -19,17 +19,21 @@ public class SubarraySumEqualsK_560Test {
     int[] nums3 = new int[]{1, 2, 3, 4, 5, 6, 7};
     int k3 = 5;
 
+    int[] nums4 = new int[]{1, 2, 3};
+    int k4 = 3;
+
     @Test
     public void testSubArraySum1() {
-        assertEquals(subarraySum1(nums1, k1), 2);
-        assertEquals(subarraySum1(nums2, k2), 3);
-        assertEquals(subarraySum1(nums3, k3), 2);
+        assertEquals(2, subarraySum1(nums1, k1));
+        assertEquals(3, subarraySum1(nums2, k2));
+        assertEquals(2, subarraySum1(nums3, k3));
     }
 
     @Test
     public void testSubArraySum2() {
-        assertEquals(subarraySum2(nums1, k1), 2);
-        assertEquals(subarraySum2(nums2, k2), 3);
-        assertEquals(subarraySum2(nums3, k3), 2);
+        assertEquals(2, subarraySum2(nums1, k1));
+        assertEquals(3, subarraySum2(nums2, k2));
+        assertEquals(2, subarraySum2(nums3, k3));
+        assertEquals(2, subarraySum2(nums4, k4));
     }
 }
