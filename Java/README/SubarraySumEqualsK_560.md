@@ -19,4 +19,4 @@ Output: 2
 
 #### Solution
 * [Brute Force](../src/HashMap/SubarraySumEqualsK_560.java )
-* [Pre_Sum + HashMap] (../src/HashMap/SubarraySumEqualsK_560.java)
+* [Pre_Sum + HashMap](../src/HashMap/SubarraySumEqualsK_560.java)
