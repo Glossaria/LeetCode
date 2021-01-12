@@ -17,5 +17,5 @@ Output: [1]
 * You can return the answer in any order.
 
 #### Solution
-* [Priority Queue: topKFrequent1()](../src/HashMap/TopKFrequentElements_347.java) 
-* [Counting Sort: topKFrequent2() ](../src/HashMap/TopKFrequentElements_347.java)
+* [Priority Queue: topKFrequent1()](../../Java/src/HashMap/TopKFrequentElements_347.java) 
+* [Counting Sort: topKFrequent2() ](../../Java/src/HashMap/TopKFrequentElements_347.java)

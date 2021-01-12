@@ -18,5 +18,5 @@ Output: 2
 * -107 <= k <= 107
 
 #### Solution
-* [Brute Force](../src/HashMap/SubarraySumEqualsK_560.java )
-* [Pre_Sum + HashMap](../src/HashMap/SubarraySumEqualsK_560.java)
+* [Brute Force](../../Java/src/HashMap/SubarraySumEqualsK_560.java )
+* [Pre_Sum + HashMap](../../Java/src/HashMap/SubarraySumEqualsK_560.java)
