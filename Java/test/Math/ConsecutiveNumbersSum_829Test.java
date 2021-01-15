@@ -3,6 +3,7 @@ package Math;
 import org.junit.Test;
 
 import static Math.ConsecutiveNumbersSum_829.consecutiveNumbersSum1;
+import static Math.ConsecutiveNumbersSum_829.consecutiveNumbersSum2;
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -16,4 +17,8 @@ public class ConsecutiveNumbersSum_829Test {
         assertEquals(16, consecutiveNumbersSum1(num));
     }
 
+    @Test
+    public void consecutiveNumbersSumTest2() {
+        assertEquals(16, consecutiveNumbersSum2(num));
+    }
 }
