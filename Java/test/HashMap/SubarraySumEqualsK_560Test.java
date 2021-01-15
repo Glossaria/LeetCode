@@ -7,7 +7,7 @@ import static HashMap.SubarraySumEqualsK_560.subarraySum2;
 import static org.junit.Assert.*;
 
 /**
- * Created by Glossaria on 1/10/21.
+ * Created by on 1/10/21.
  */
 public class SubarraySumEqualsK_560Test {
     int[] nums1 = new int[]{1, 1, 1};

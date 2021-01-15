@@ -44,7 +44,7 @@ public class TopKFrequentElements_347 {
 
         List<Integer>[] freq = new List[nums.length + 1];
 
-        for(int i = 0; i < freq.length; i++){
+        for (int i = 0; i < freq.length; i++) {
             freq[i] = new ArrayList<>();
         }
 
@@ -63,4 +63,41 @@ public class TopKFrequentElements_347 {
         return res;
     }
 
+    public static int[] topKFrequent3(int[] nums, int k) {
+
+        Map<Integer, Integer> counter = IntStream.of(nums).boxed()
+                .collect(Collectors.toMap(n -> n, n -> 1, Integer::sum));
+
+        Comparator<Integer> comparator = new ValueComparator(counter);
+        TreeMap<Integer, Integer> result = new TreeMap<Integer, Integer>(comparator);
+        result.putAll(counter);
+
+        Collection<Integer> freq = result.keySet();
+
+        int[] res = new int[k];
+        for (int j = 0; j < k && j < result.size(); j++) {
+            res[j] = (int) freq.toArray()[j];
+        }
+        return res;
+    }
+
 }
+
+ class ValueComparator implements Comparator<Integer> {
+
+    HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
+
+    public ValueComparator(Map<Integer, Integer> map) {
+        this.map.putAll(map);
+    }
+
+    @Override
+    public int compare(Integer s1, Integer s2) {
+        if (map.get(s1) >= map.get(s2)) {
+            return -1;
+        } else {
+            return 1;
+        }
+    }
+
+ }
