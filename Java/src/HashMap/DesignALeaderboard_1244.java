@@ -1,4 +1,9 @@
+package HashMap;
+
+
 import java.util.*;
+import java.util.stream.Collectors;
+
 class Leaderboard {
     private static Map<Integer, Integer> scoreBoard ;
     
