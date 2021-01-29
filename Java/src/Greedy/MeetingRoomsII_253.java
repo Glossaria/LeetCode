@@ -1,6 +1,12 @@
+package Greedy;
+
+
+import java.util.PriorityQueue;
+import java.util.Queue;
+
 class Solution {
 
-    public int minMeetingRooms(int[][] array) {
+    public static int minMeetingRooms(int[][] array) {
         
         java.util.Arrays.sort(array, new java.util.Comparator<int[]>() {
             public int compare(int[] a, int[] b) {
@@ -11,6 +17,7 @@ class Solution {
                 return Integer.compare(a[0], b[0]);
             }
         });
+
         Queue<Integer> q = new PriorityQueue<>();
     	q.offer(array[0][1]);
     	for(int i = 1; i < array.length; ++i)
