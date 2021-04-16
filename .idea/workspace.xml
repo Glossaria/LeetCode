@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="930f0d38-5c02-4b4a-ae16-1ee099fe7ad0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Java/test/Sort/QuickSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/Sort/CountSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/test/Sort/CountingSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/test/Sort/MergeSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/test/Sort/MergeSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/Sort/CountingSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/Utils/SortUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Utils/SortUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +137,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.QuickSortTest.testQuickSort">
+  <component name="RunManager" selected="JUnit.CountingSortTest.testCountSort">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -463,6 +463,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CountingSortTest.testCountSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Sort" />
+      <option name="MAIN_CLASS_NAME" value="Sort.CountingSortTest" />
+      <option name="METHOD_NAME" value="testCountSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeSortTest.testMergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -508,23 +525,6 @@
       <option name="PACKAGE_NAME" value="Sort" />
       <option name="MAIN_CLASS_NAME" value="Sort.QuickSortTest" />
       <option name="METHOD_NAME" value="testQuickSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShellSortTest.testSelectionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Sort" />
-      <option name="MAIN_CLASS_NAME" value="Sort.ShellSortTest" />
-      <option name="METHOD_NAME" value="testSelectionSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -608,19 +608,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Leetcode" />
-      <item itemvalue="JUnit.ShellSortTest.testSelectionSort" />
       <item itemvalue="JUnit.SolutionTest" />
       <item itemvalue="JUnit.MergeSortTest.testMergeSort" />
       <item itemvalue="JUnit.MergeSortTest.testMultipleTimes" />
       <item itemvalue="JUnit.QuickSortTest.testQuickSort" />
+      <item itemvalue="JUnit.CountingSortTest.testCountSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CountingSortTest.testCountSort" />
         <item itemvalue="JUnit.QuickSortTest.testQuickSort" />
         <item itemvalue="JUnit.MergeSortTest.testMultipleTimes" />
         <item itemvalue="JUnit.MergeSortTest.testMergeSort" />
         <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.ShellSortTest.testSelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -786,7 +786,28 @@
       <option name="project" value="LOCAL" />
       <updated>1618537966152</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Add merge sort">
+      <created>1618546990836</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1618546990836</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update quick sort">
+      <created>1618547016316</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1618547016316</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update quick sort test">
+      <created>1618547096113</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1618547096113</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -880,7 +901,10 @@
     <MESSAGE value="update 253" />
     <MESSAGE value="shell sort" />
     <MESSAGE value="Merge sort with test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge sort with test" />
+    <MESSAGE value="Add merge sort" />
+    <MESSAGE value="update quick sort" />
+    <MESSAGE value="update quick sort test" />
+    <option name="LAST_COMMIT_MESSAGE" value="update quick sort test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -17,9 +17,25 @@ public class SortUtils {
         return arr;
     }
 
+    public static int[] generateRandomArray(int size, int boundary) {
+        Random r = new Random();
+        int[] arr = new int[size];
+
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = r.nextInt(boundary);
+        }
+        return arr;
+    }
+
    public static void swap(int[] arr, int i, int target) {
         int temp = arr[i];
         arr[i] = arr[target];
         arr[target] = temp;
+    }
+
+    public static void printArray(int[] arr){
+        for(int e: arr){
+            System.out.print( e + ", ");
+        }
     }
 }
