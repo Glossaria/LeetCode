@@ -16,11 +16,7 @@ public class MergeSort {
             } else if (j >= len2) {
                 res[cur++] = arr1[i++];
             }else{
-                if(arr1[i] < arr2[j]){
-                    res[cur++] =  arr1[i++];
-                }else{
-                    res[cur++] = arr2[j++];
-                }
+                res[cur++] = arr1[i] < arr2[j] ?  arr1[i++] : arr2[j++];
             }
         }
         return res;

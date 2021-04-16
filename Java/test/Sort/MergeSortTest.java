@@ -19,8 +19,8 @@ public class MergeSortTest {
         int[] mergedArray = new int[case1.length + case2.length];
         System.arraycopy( case1, 0, mergedArray, 0, case1.length);
         System.arraycopy( case2, 0, mergedArray, case1.length, case2.length );
-        Arrays.sort(mergedArray);
         int[] res = mergeSort(case1, case2);
+        Arrays.sort(mergedArray);
         assertArrayEquals(res, mergedArray);
     }
 
@@ -35,9 +35,9 @@ public class MergeSortTest {
             int[] mergedArray = new int[case1.length + case2.length];
             System.arraycopy( case1, 0, mergedArray, 0, case1.length);
             System.arraycopy( case2, 0, mergedArray, case1.length, case2.length );
-            Arrays.sort(mergedArray);
 
             int[] res = mergeSort(case1, case2);
+            Arrays.sort(mergedArray);
 
             assertArrayEquals(res, mergedArray);
         }
