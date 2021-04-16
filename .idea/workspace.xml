@@ -20,26 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="930f0d38-5c02-4b4a-ae16-1ee099fe7ad0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Java/src/Array/NextPermutation_31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Sort/BucketSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Sort/CountingSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Sort/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Sort/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Sort/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/Sort/RadixSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/test/Array/NextPermutation_31Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/test/Greedy/SolutionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/test/Sort/InsertionSortTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README/Array/31_NextPermutation.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LeetCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/Greedy/759.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Greedy/EmployeeFreeTime_759.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/test/Sort/MergeSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/src/Sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/Sort/MergeSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -134,8 +125,8 @@
       <recent name="$PROJECT_DIR$/Java" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="Array" />
       <recent name="Sort" />
+      <recent name="Array" />
       <recent name="Greedy" />
       <recent name="Math" />
       <recent name="HashMap" />
@@ -144,7 +135,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
+  <component name="RunManager" selected="JUnit.MergeSortTest.testMultipleTimes">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -470,7 +461,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSortTest.testInsertionSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSortTest.testMergeSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -479,15 +470,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Sort" />
-      <option name="MAIN_CLASS_NAME" value="Sort.InsertionSortTest" />
-      <option name="METHOD_NAME" value="testInsertionSort" />
+      <option name="MAIN_CLASS_NAME" value="Sort.MergeSortTest" />
+      <option name="METHOD_NAME" value="testMergeSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSortTest.testInsertionSort2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeSortTest.testMultipleTimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -496,8 +487,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Sort" />
-      <option name="MAIN_CLASS_NAME" value="Sort.InsertionSortTest" />
-      <option name="METHOD_NAME" value="testInsertionSort2" />
+      <option name="MAIN_CLASS_NAME" value="Sort.MergeSortTest" />
+      <option name="METHOD_NAME" value="testMultipleTimes" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -615,19 +606,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Leetcode" />
-      <item itemvalue="JUnit.InsertionSortTest.testInsertionSort2" />
-      <item itemvalue="JUnit.InsertionSortTest.testInsertionSort" />
       <item itemvalue="JUnit.ShellSortTest.testSelectionSort1" />
       <item itemvalue="JUnit.ShellSortTest.testSelectionSort" />
       <item itemvalue="JUnit.SolutionTest" />
+      <item itemvalue="JUnit.MergeSortTest.testMergeSort" />
+      <item itemvalue="JUnit.MergeSortTest.testMultipleTimes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MergeSortTest.testMultipleTimes" />
+        <item itemvalue="JUnit.MergeSortTest.testMergeSort" />
         <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.ShellSortTest.testSelectionSort" />
         <item itemvalue="JUnit.ShellSortTest.testSelectionSort1" />
-        <item itemvalue="JUnit.InsertionSortTest.testInsertionSort" />
-        <item itemvalue="JUnit.InsertionSortTest.testInsertionSort2" />
       </list>
     </recent_temporary>
   </component>
