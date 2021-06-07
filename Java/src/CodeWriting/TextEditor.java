@@ -42,10 +42,13 @@ public class TextEditor {
     public static String append(String s) {
         undo.empty();
 
-        if(selected.isEmpty()){
+        if (selected.isEmpty()) {
             str += s;
-        }else{
-            str = str.substring(0, selectStart) + s + str.substring(selectEnd + 1);
+        } else {
+            str = str.substring(0, selectStart) + s + str.substring(selectEnd);
+            selected = "";
+            selectStart = -1;
+            selectEnd = -1;
         }
 
 
@@ -57,27 +60,33 @@ public class TextEditor {
     }
 
     public static String backSpace() {
-
         undo.empty();
 
-        if (str.length() < 1) {
-            str = "";
-        } else {
-
-            Map<String, String> map = new HashMap<>();
-            map.put("BACKSPACE", str.charAt(str.length() - 1) + "");
-            operation.add(map);
-
-            int idx = str.length() - 1;
-            while (str.charAt(idx) == '*') {
-                idx--;
-            }
-
-            if (idx == str.length() - 1) {
-                str = str.substring(0, str.length() - 1);
+        if (selected.isEmpty()) {
+            if (str.length() < 1) {
+                str = "";
             } else {
-                str = str.substring(0, idx) + str.substring(idx + 1);
+
+                Map<String, String> map = new HashMap<>();
+                map.put("BACKSPACE", str.charAt(str.length() - 1) + "");
+                operation.add(map);
+
+                int idx = str.length() - 1;
+                while (str.charAt(idx) == '*') {
+                    idx--;
+                }
+
+                if (idx == str.length() - 1) {
+                    str = str.substring(0, str.length() - 1);
+                } else {
+                    str = str.substring(0, idx) + str.substring(idx + 1);
+                }
             }
+        } else {
+            str = str.substring(0, selectStart) + str.substring(selectEnd);
+            selected = "";
+            selectStart = -1;
+            selectEnd = -1;
         }
         return str;
     }
@@ -127,20 +136,38 @@ public class TextEditor {
         return str;
     }
 
-    public static String select(int start, int end) {
+    public static void select(int start, int end) {
         undo.empty();
-        selectStart = Math.max(0, start);
+
+        selectStart = start;
         selectEnd = Math.min(end, str.length());
 
-        selected = str.substring(selectStart, selectEnd);
-        return selected;
+        if (selectStart > str.length() || selectStart < 0) {
+            selected = "";
+            selectStart = -1;
+            selectEnd = -1;
+
+        } else {
+            selected = str.substring(selectStart, selectEnd);
+        }
     }
 
-    /*
+    public static String bold() {
+        undo.empty();
 
-    public static String bold(){
-        undoRedo.empty();
+        if (selected.isEmpty()) {
+            return str;
+        } else {
+            str = str.substring(0, selectStart - 1)
+                    + "*"
+                    + str.substring(selectStart, selectEnd)
+                    + "*"
+                    + str.substring(selectEnd);
+        }
+        selected = "";
+        selectStart = -1;
+        selectEnd = -1;
+        return str;
+
     }
-
-     */
 }

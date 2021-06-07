@@ -213,6 +213,126 @@ public class TextEditorTest {
         System.out.println("chronologicalTest1 " + run.get());
     }
 
+    @Test
+    public void selectTest1(){
+        String[][] input = {
+                {"0", "APPEND", "Hello how are you"},
+                {"1", "SELECT", "2","5"},
+                {"2", "APPEND", "y there!"}};
+        TextEditor run = new TextEditor(input);
+
+
+        for (String[] s : input) {
+
+            switch (s[1]){
+                case "APPEND": run.append(s[2]); break;
+                case "BACKSPACE" : run.backSpace(); break;
+                case "UNDO": run.undo();break;
+                case "REDO" : run.redo(); break;
+                case "SELECT" : run.select(Integer.parseInt(s[2]),Integer.parseInt(s[3]));break;
+            }
+        }
+
+        System.out.println("selectTest1 " + run.get());
+    }
+
+
+    @Test
+    public void selectTest2(){
+        String[][] input = {
+                {"0", "APPEND", "Hello how are you"},
+                {"1", "SELECT", "2","5"},
+                {"2", "BACKSPACE"},
+                {"3", "APPEND", " y there!"}};
+        TextEditor run = new TextEditor(input);
+
+
+        for (String[] s : input) {
+
+            switch (s[1]){
+                case "APPEND": run.append(s[2]); break;
+                case "BACKSPACE" : run.backSpace(); break;
+                case "UNDO": run.undo();break;
+                case "REDO" : run.redo(); break;
+                case "SELECT" : run.select(Integer.parseInt(s[2]),Integer.parseInt(s[3]));break;
+            }
+        }
+
+        System.out.println("selectTest2 " + run.get());
+    }
+
+    @Test
+    public void selectTest3(){
+        String[][] input = {
+                {"0", "APPEND", "Hello how are you"},
+                {"1", "SELECT", "2","5"},
+                {"2", "APPEND", "y there!"},
+                {"3", "BACKSPACE"}};
+        TextEditor run = new TextEditor(input);
+
+
+        for (String[] s : input) {
+
+            switch (s[1]){
+                case "APPEND": run.append(s[2]); break;
+                case "BACKSPACE" : run.backSpace(); break;
+                case "UNDO": run.undo();break;
+                case "REDO" : run.redo(); break;
+                case "SELECT" : run.select(Integer.parseInt(s[2]),Integer.parseInt(s[3]));break;
+            }
+        }
+
+        System.out.println("selectTest3 " + run.get());
+    }
+
+    @Test
+    public void boldTest1(){
+        String[][] input = {
+                {"0", "APPEND", "Hello how are you"},
+                {"1", "SELECT", "2","5"},
+                {"3", "BOLD"}};
+        TextEditor run = new TextEditor(input);
+
+
+        for (String[] s : input) {
+
+            switch (s[1]){
+                case "APPEND": run.append(s[2]); break;
+                case "BACKSPACE" : run.backSpace(); break;
+                case "UNDO": run.undo();break;
+                case "REDO" : run.redo(); break;
+                case "SELECT" : run.select(Integer.parseInt(s[2]),Integer.parseInt(s[3]));break;
+                case "BOLD" : run.bold(); break;
+            }
+        }
+
+        System.out.println("selectTest3 " + run.get());
+    }
+
+    @Test
+    public void boldTest2(){
+        String[][] input = {
+                {"0", "APPEND", "Hello how are you"},
+                {"1", "SELECT", "2","8"},
+                {"2", "BACKSPACE"},
+                {"3", "BOLD"}};
+        TextEditor run = new TextEditor(input);
+
+
+        for (String[] s : input) {
+
+            switch (s[1]){
+                case "APPEND": run.append(s[2]); break;
+                case "BACKSPACE" : run.backSpace(); break;
+                case "UNDO": run.undo();break;
+                case "REDO" : run.redo(); break;
+                case "SELECT" : run.select(Integer.parseInt(s[2]),Integer.parseInt(s[3]));break;
+                case "BOLD" : run.bold(); break;
+            }
+        }
+
+        System.out.println("selectTest2 " + run.get());
+    }
 
 
 }
