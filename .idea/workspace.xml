@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="930f0d38-5c02-4b4a-ae16-1ee099fe7ad0" name="Default" comment="Add new files with test">
-      <change afterPath="$PROJECT_DIR$/Java/src/CloudFrontCaching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/test/CloudFrontCachingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/src/CodeWriting/TextEditor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/test/CodeWriting/TextEditorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,17 +126,17 @@
       <recent name="$PROJECT_DIR$/Java" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="CodeWriting" />
       <recent name="" />
       <recent name="KMP" />
       <recent name="Sort" />
       <recent name="Array" />
-      <recent name="Greedy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in LeetCode">
+  <component name="RunManager" selected="JUnit.TextEditorTest.chronologicalTest1">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -462,41 +462,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in LeetCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextEditorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CloudFrontCachingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CloudFrontCachingTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeWriting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CodeWriting" />
+      <option name="MAIN_CLASS_NAME" value="CodeWriting.TextEditorTest" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloudFrontCachingTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextEditorTest.chronologicalTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CloudFrontCachingTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeWriting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CodeWriting" />
+      <option name="MAIN_CLASS_NAME" value="CodeWriting.TextEditorTest" />
+      <option name="METHOD_NAME" value="chronologicalTest1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CloudFrontCachingTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TextEditorTest.redoTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CloudFrontCachingTest" />
-      <option name="METHOD_NAME" value="test3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeWriting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CodeWriting" />
+      <option name="MAIN_CLASS_NAME" value="CodeWriting.TextEditorTest" />
+      <option name="METHOD_NAME" value="redoTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextEditorTest.undoTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeWriting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CodeWriting" />
+      <option name="MAIN_CLASS_NAME" value="CodeWriting.TextEditorTest" />
+      <option name="METHOD_NAME" value="undoTest1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextEditorTest.undoTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeWriting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CodeWriting" />
+      <option name="MAIN_CLASS_NAME" value="CodeWriting.TextEditorTest" />
+      <option name="METHOD_NAME" value="undoTest2" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -505,23 +548,6 @@
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="theKthSmallestNumberTest.testTheKthSmallestNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="KMP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="KMP" />
-      <option name="MAIN_CLASS_NAME" value="KMP.theKthSmallestNumberTest" />
-      <option name="METHOD_NAME" value="testTheKthSmallestNumber" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -581,19 +607,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Leetcode" />
-      <item itemvalue="JUnit.theKthSmallestNumberTest.testTheKthSmallestNumber" />
-      <item itemvalue="JUnit.CloudFrontCachingTest" />
-      <item itemvalue="JUnit.CloudFrontCachingTest.test2" />
-      <item itemvalue="JUnit.CloudFrontCachingTest.test3" />
-      <item itemvalue="JUnit.All in LeetCode" />
+      <item itemvalue="JUnit.TextEditorTest.undoTest1" />
+      <item itemvalue="JUnit.TextEditorTest.redoTest1" />
+      <item itemvalue="JUnit.TextEditorTest.undoTest2" />
+      <item itemvalue="JUnit.TextEditorTest" />
+      <item itemvalue="JUnit.TextEditorTest.chronologicalTest1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in LeetCode" />
-        <item itemvalue="JUnit.CloudFrontCachingTest" />
-        <item itemvalue="JUnit.CloudFrontCachingTest.test2" />
-        <item itemvalue="JUnit.CloudFrontCachingTest.test3" />
-        <item itemvalue="JUnit.theKthSmallestNumberTest.testTheKthSmallestNumber" />
+        <item itemvalue="JUnit.TextEditorTest.chronologicalTest1" />
+        <item itemvalue="JUnit.TextEditorTest" />
+        <item itemvalue="JUnit.TextEditorTest.redoTest1" />
+        <item itemvalue="JUnit.TextEditorTest.undoTest2" />
+        <item itemvalue="JUnit.TextEditorTest.undoTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -859,6 +885,17 @@
                   <entry key="Show.Git.Branches" value="false" />
                 </map>
               </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
             </State>
           </value>
         </entry>
@@ -930,12 +967,23 @@
           <line>20</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/src/CodeWriting/TextEditor.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Java/src/CodeWriting/TextEditor.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="j" language="JAVA" custom="" />
         <watch expression="parent" />
+        <watch expression="input[12]" />
       </configuration>
     </watches-manager>
   </component>
