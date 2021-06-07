@@ -1,6 +1,12 @@
 # Compiled class file
 *.class
 
+#Intellij IDEA Project config
+.idea/
+*.iws
+*.ipr
+*.iml
+
 # Log file
 *.log
 
