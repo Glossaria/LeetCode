@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="930f0d38-5c02-4b4a-ae16-1ee099fe7ad0" name="Default" comment="Add new files with test">
+      <change afterPath="$PROJECT_DIR$/Java/test/CodeWriting/TestEditor2Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/CodeWriting/TextEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/CodeWriting/TextEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/test/CodeWriting/TextEditorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/test/CodeWriting/TextEditorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +135,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TextEditorTest.boldTest2">
+  <component name="RunManager" selected="JUnit.TestEditor2Test.testMainFunc">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -462,6 +461,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestEditor2Test.testMainFunc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeWriting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="CodeWriting" />
+      <option name="MAIN_CLASS_NAME" value="CodeWriting.TestEditor2Test" />
+      <option name="METHOD_NAME" value="testMainFunc" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TextEditorTest.boldTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LeetCode" />
       <extension name="coverage">
@@ -490,23 +506,6 @@
       <option name="PACKAGE_NAME" value="CodeWriting" />
       <option name="MAIN_CLASS_NAME" value="CodeWriting.TextEditorTest" />
       <option name="METHOD_NAME" value="boldTest2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TextEditorTest.selectTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CodeWriting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CodeWriting" />
-      <option name="MAIN_CLASS_NAME" value="CodeWriting.TextEditorTest" />
-      <option name="METHOD_NAME" value="selectTest1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
@@ -608,19 +607,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Leetcode" />
-      <item itemvalue="JUnit.TextEditorTest.selectTest1" />
       <item itemvalue="JUnit.TextEditorTest.selectTest2" />
       <item itemvalue="JUnit.TextEditorTest.selectTest3" />
       <item itemvalue="JUnit.TextEditorTest.boldTest1" />
       <item itemvalue="JUnit.TextEditorTest.boldTest2" />
+      <item itemvalue="JUnit.TestEditor2Test.testMainFunc" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestEditor2Test.testMainFunc" />
         <item itemvalue="JUnit.TextEditorTest.boldTest2" />
         <item itemvalue="JUnit.TextEditorTest.boldTest1" />
         <item itemvalue="JUnit.TextEditorTest.selectTest3" />
         <item itemvalue="JUnit.TextEditorTest.selectTest2" />
-        <item itemvalue="JUnit.TextEditorTest.selectTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -842,7 +841,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623043069600</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Add new files with test">
+      <created>1623102538814</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1623102538814</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
